@@ -1,0 +1,249 @@
+
+:root{
+
+    --color1:#FFFCF8;
+    --color2:#F0E5CF;
+    --color3:#a90808;
+    --color4:#058cc2;
+    --color4Rgba:#bcc06bae;
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .Banner-heading{
+        width: 85%;
+        color: white;
+        padding: 10px;
+        margin: 10px auto;
+        align-self: center;
+    }
+}
+
+
+
+
+
+@media (max-width:992px) {
+    .container{
+        margin: 10px 25px;
+    }
+    .logo-site img{
+        width: 90%;
+    }
+    .navigation .menu{
+        width: 75%;
+        float: right;
+        overflow: hidden;
+        padding: 15px 0;
+       /* margin: 25px 0; */
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .top-bit .social-icons .flex-box{
+        width: 50%;
+        float: right;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+    #body{
+        background: none;
+    }
+    
+    .logo-site{
+        width: 25%;
+        margin-left: -0px;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .menu-area{
+        display: none;
+    }
+    .top-bit .flex-box{
+        display: flex;
+    }
+   
+    .container{
+        box-shadow: none;
+    }
+    .Banner-heading{
+       
+        padding: 10px;
+        margin: 50px auto;
+        align-self: center;
+    }
+    .flex-box{
+        display: block;
+    }
+    .About-area .picture{
+        width: 90%;
+        border-bottom: none;
+        margin: 0 auto;
+    }
+    .About-area .picture img{
+        width: 100%;
+        border-bottom: 1px solid var(--color4);
+    }
+    .About-area .introduce-area{
+        width:90%;
+       margin: 0 auto;
+    }
+    .Hero-area .text{
+        width: 90%;
+        color: white;
+        margin: 0px auto; 
+        top: 15%;
+    }
+    .product{
+        width: 85%;
+        margin: 10px auto;
+    }
+    .Product-area button{
+        width: 90%;
+    }
+    .blog-post{
+        border: 1px solid var(--color2);
+        margin: 5px 0;
+    }
+    .blog-post .blog-body p{
+        font-size: 14px;
+    }
+    .FAQ-section .container-fluid{
+        width: 100%;
+        margin: 50px auto;
+    }
+    .FAQ-section .faq-box{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .FAQ-section .common h5{
+        padding-right: 0px 20px;
+    }
+    .FAQ-section h3{
+        text-align: center;
+    }
+    .FAQ-section .common .pluse i{
+        position: absolute;
+        top: 25px;
+        right: 5px;
+    }
+    .FAQ-section .faq-image{
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer-area{
+       padding: 25px;
+    }
+}
+
+
+
+@media (max-width:576px) {
+        
+    .top-bit{
+        background-color: var(--color4);
+        padding: 3px 10px;
+        color: white;
+        overflow: hidden;
+    }
+    .top-bit .flex-box{
+        justify-content: space-between;
+    }
+    .top-bit .contact-number {
+        width: 50%;
+        text-align: left;
+       font-size: 13px;
+    }
+    .top-bit .social-icons{
+        width: 40%;
+       padding: 0px 0;
+       float: right;
+       overflow: hidden;
+        text-align: right;
+    }
+    .top-bit .social-icons .flex-box{
+        width: 65%;
+        float: right;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+   
+}
+
+
+@media (max-width:450px) {
+    .top-bit .social-icons{
+        width: 40%;
+       padding: 10px 0;
+       float: right;
+       overflow: hidden;
+        text-align: right;
+    }
+    .Banner-area h1{
+        font-size: 20px;
+    }
+    .Banner-area h3{
+        font-size: 18px;
+    }
+    .Banner-heading{
+        width: 100%;
+        color: white;
+        padding: 10px;
+        margin: 40px auto;
+        align-self: center;
+    }
+    .Banner-heading p{
+        font-size: 14px;
+    }
+    .Banner-heading br{
+        display: none;
+    }
+
+    .About-area .introduce-area .intro-details{
+        clip-path: polygon(0% 0%,  100% 0%, 100% 100%, 0% 100%);
+        background-color: var(--color4);
+        padding: 15px 0;
+        margin-top:20px;
+        margin-right: 0px;
+    
+    }
+
+
+    .footer-area .left{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: -30px;
+    }
+    .footer-area .right{
+        width: 90%;
+        text-align: center;
+       margin: 0 auto;
+       display: flex;
+    }
+    .footer-area .right .flex-box{
+        width: 100%;
+        display: flex;
+    }
+    .footer-area .footer-social-link{
+        width: 50%;
+        float: none;
+        overflow: hidden;
+        text-align: center; 
+        margin: 0 auto;
+    }
+   
+}
