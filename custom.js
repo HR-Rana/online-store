@@ -52,21 +52,29 @@
 
 
 
-    
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        autoPlay:1000,
-        responsive: {
-            30: {
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        loop:true,
+        nav:true,
+        margin:10,
+        responsive:{
+            0:{
                 items:1
             },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
+            770:{
+                items:2
+            },            
+         
+            1200:{
+                items:3
             }
         }
+    });
+    owl.on('mousewheel', '.owl-stage', function (e) {
+        if (e.deltaY>0) {
+            owl.trigger('next.owl');
+        } else {
+            owl.trigger('prev.owl');
+        }
+        e.preventDefault();
     });

@@ -301,45 +301,95 @@ header{
 
 
 
-.About-area .flex-box{
-    justify-content: space-between;
-}
-.About-area .picture{
-    width: 49%;
-    border-bottom: 1px solid var(--color4);
-}
-.About-area .picture img{
-    width: 85%;
-    transform:rotateY(180deg);
-    text-align: left;
-    /* border-bottom: .5px solid var(--color4); */
-}
-.About-area .introduce-area{
-    width:49%;
-    box-shadow: var(--box-shadow);
-    height: 50%;
-    position: relative;
-   align-self: center;
-}
-.About-area .introduce-area .intro-details{
-    clip-path: polygon(0% 0%,  100% 0%, 85% 50%, 100% 100%, 0% 100%);
-    background-color: var(--color4);
-    padding: 15px 0;
-    margin-top:20px;
-    margin-right: 10px;
 
-}
-.About-area .introduce-area .intro-details{
-    text-align: center;
-    color: white;
-}
 
-.introduce-area .logo{
-    width: 100%;
-  
+.Testimonials{
+    padding: 50px 0;
+    background-color: var(--simple);
+}
+.Testimonials .owl-theme{
+   padding: 25px 0;
+}
+.Testimonials .owl-theme .item{
     padding: 15px;
+    margin: 5px;
+    background-color: white;
+    border-radius: var(--border-radius);
+}
+.Testimonials .comment-body{
+   display: inline-block;
+}
+.Testimonials .owl-theme .item .comment-body span{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin-top:px;
+}
+.Testimonials .comment-body .qutetion{}
+.Testimonials .comment-body{
+    position: relative;
+    z-index: 999999;
+}
+.Testimonials .comment-body .qutetion img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    bottom:15px;
+    right: 0;
+    z-index: -77777;
+    
+}
+.Testimonials .comment-body .rating{
+    color: rgb(253, 231, 28);
+  
 }
 
+.Testimonials .comment-body .rating li i{
+   
+}
+.Testimonials .rating li{
+    width: 40%;
+    margin: 0 auto;
+    justify-content: space-between;
+ }
+.Testimonials .comment-footer .Profile{
+    width: 50px;
+    height: 50px;
+    padding:5px;
+    border:3px solid var(--primary);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Testimonials .comment-footer .Profile img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Testimonials .comment-footer .d-flex .name h4{
+    margin:10px 0;
+    font-size: 18px;
+    font-weight: 700;
+   color: var(--secondary);
+  
+}
+.Testimonials .owl-nav{
+    text-align: center;
+    font-size: 45px;
+    color: var(--color4);
+    display: block;
+   
+}
+.Testimonials .owl-prev{
+    margin: 0px 20px;
+}
+.Testimonials .owl-next{
+    margin: 0px 20px;
+}
 
 
 
