@@ -9,6 +9,12 @@
     })
 
 
+    $(".nav-icon i").click(function(){
+        $(" .menu ").show(200);
+    })
+    $(" .navigation .menu").click(function(){
+        $(" .menu ").hide(200);
+    })
 
 
 

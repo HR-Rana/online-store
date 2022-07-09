@@ -175,12 +175,12 @@ section{
 
 .logo-site{
     width: 20%;
-   
+   text-align: left;
 }
 .logo-site img{
     width: 50%;
     position: relative;
-   margin-top: 20px;
+     margin-top: 20px;
 }
 
 .show{
@@ -192,25 +192,30 @@ section{
 
 
 
+
 .nav-icon{
-    position: absolute;
-    right: 25px;
     display: none;
+   
+}
+.nav-icon i{
+    font-size: 25px;
+    color: white;
+    text-align: right;
+   
 }
 .navigation{
     width:100%;
     margin: 0 auto;
-    position: relative;
 }
 .navigation .flex-box{
-    width: 86%;
-    margin: 0 auto;
+
 }
 .navigation .menu-area{
     width: 80%;
     float: right;
     overflow: hidden;
     margin-top: -15px;
+   
 }
 .navigation .menu{
     width: 55%;
@@ -218,15 +223,20 @@ section{
     overflow: hidden;
     padding: 15px 0;
    /* margin: 25px 0; */
+ 
 }
+
 .navigation .menu  ul{
     align-self: center;
     justify-content: space-between;
     margin:0px 0;
     padding: 15px 0;
     padding-top: 20px;
+    
 }
-.navigation .menu  ul li{}
+.navigation .menu  ul p{
+    display: none;
+}
 .navigation .menu  ul li a:hover{
     background-color: var(--color3);
 }
@@ -267,7 +277,10 @@ section{
     height: 90vh;
     background-attachment: fixed;
 }
-
+.Banner-area .container{
+    padding: 0px;
+   box-shadow: none;
+}
 .Banner-heading{
     width: 70%;
     color: white;
